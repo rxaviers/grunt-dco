@@ -34,6 +34,7 @@ module.exports = function(grunt) {
       }
 
       grunt.log.ok("All commits have appropriate licensing.");
+      done();
     });
   });
 };
