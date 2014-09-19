@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks("grunt-contrib-jshint");
 
   // Actually load this plugin's task(s).
   grunt.loadTasks("tasks");
