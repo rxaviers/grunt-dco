@@ -1,7 +1,7 @@
 {
   "name": "grunt-dco",
   "description": "Validate DCO signatures in git repositories",
-  "version": "0.0.1-pre",
+  "version": "0.0.1",
   "homepage": "https://github.com/rxaviers/grunt-dco",
   "author": {
     "name": "Rafael Xavier de Souza",
