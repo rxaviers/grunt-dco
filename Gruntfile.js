@@ -21,9 +21,11 @@ module.exports = function(grunt) {
       }
     },
     dco: {
-      options: {
-        exceptionalAuthors: {
-          "rxaviers@gmail.com": "Rafael Xavier de Souza"
+      current: {
+        options: {
+          exceptionalAuthors: {
+            "rxaviers@gmail.com": "Rafael Xavier de Souza"
+          }
         }
       }
     }
