@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "dco": "1.0.x"
+    "dco": "1.1.x"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
