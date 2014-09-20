@@ -47,7 +47,7 @@ Default: `HEAD` (current branch)
 
 Committish range to analyze.
 
-#### committish
+#### exceptionalAuthors
 
 Type: `Object`
 Default: `{}`
