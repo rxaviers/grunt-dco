@@ -33,6 +33,28 @@ Any specified option will be passed through directly to [scottgonzalez/dco][], t
 [scottgonzalez/dco]: http://github.com/scottgonzalez/dco
 [scottgonzalez/dco documentation]: http://github.com/scottgonzalez/dco#dcogetcommiterrors-options-callback-
 
+#### path
+
+Type: `String`
+Default: `.` ()
+
+The path to the repository.
+
+#### committish
+
+Type: `String`
+Default: `HEAD` (current branch)
+
+Committish range to analyze.
+
+#### committish
+
+Type: `Object`
+Default: `{}`
+
+A hash of email addresses and names for authors who may commit without signing
+their commits.
+
 
 ## License
 
