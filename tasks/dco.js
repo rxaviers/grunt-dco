@@ -1,7 +1,7 @@
 /**
  * grunt-dco
  *
- * Copyright (c) 2014 Rafael Xavier de Souza
+ * Copyright (c) Rafael Xavier de Souza
  * Licensed under the MIT license.
  */
 
