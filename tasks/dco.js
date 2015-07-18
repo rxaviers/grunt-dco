@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       path: "."
     });
 
-    dco.getCommitErrors(options, function(error, errors) {
+    dco.getCommitErrors(options, function(error, errors, commits) {
       if (error) {
         grunt.log.error("Internal error " + error.stack);
         return done(error);
@@ -34,7 +34,14 @@ module.exports = function(grunt) {
         return done(new Error("Invalid commits."));
       }
 
-      grunt.log.ok("All commits have appropriate licensing.");
+      if (commits.length === 0) {
+        grunt.log.warn( "No commits." );
+      } else if (commits.length === 1) {
+        grunt.log.ok("The commit has appropriate licensing.");
+      } else {
+        grunt.log.ok("All", commits.length, "commits have appropriate licensing.");
+      }
+
       done();
     });
   });
